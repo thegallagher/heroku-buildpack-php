@@ -126,9 +126,9 @@ function install_node_deps() {
     local cwd=$(pwd)
     local target="$1"
 
-    if [ ! -f "$target/package.json" ]; then
+    # if [ ! -f "$target/package.json" ]; then
         return 0
-    fi
+    # fi
 
     status "NODE (package.json) app detected"
 
